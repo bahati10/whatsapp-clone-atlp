@@ -13,12 +13,14 @@ body {
 }
 
 .container{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
     width: 100%;
     max-width: 1120px;
     min-height: 708px;
     border-radius: 24px;
     overflow: hidden;
-    display: flex;
 }
 
 .left{
